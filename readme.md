@@ -66,3 +66,11 @@ python main.py --arch hidra  --dataset mini --data_path /path/to/MiniImageNet --
 
 - For testing, just add the ```--test``` flag
 - To continue training or for testing, you must provide the step number as ```--step X``` (where X is your checkpoint number on  model_checkpoint/NAME folder)
+
+## Python Requirements
+
+- tensorflow=1.14
+- opencv-python
+- pillow
+- numpy
+- json
