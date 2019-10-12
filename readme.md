@@ -20,7 +20,8 @@
 ```
 
 ```
-
+Our paper will be uploaded to arxiv soon.
+HIDRA: Head Initialization for Dynamic Robust Architectures
 ```
 
 ## How to use it?
