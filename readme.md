@@ -18,10 +18,16 @@
 	  organization={JMLR. org}
 	}
 ```
-
+Our paper:
 ```
-Our paper will be uploaded to arxiv soon.
-HIDRA: Head Initialization for Dynamic Robust Architectures
+@misc{drumond2019hidra,
+    title={HIDRA: Head Initialization across Dynamic targets for Robust Architectures},
+    author={Rafael Rego Drumond and Lukas Brinkmeyer and Josif Grabocka and Lars Schmidt-Thieme},
+    year={2019},
+    eprint={1910.12749},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
 ```
 
 ## How to use it?
