@@ -20,13 +20,13 @@
 ```
 Our paper:
 ```
-@misc{drumond2019hidra,
-    title={HIDRA: Head Initialization across Dynamic targets for Robust Architectures},
-    author={Rafael Rego Drumond and Lukas Brinkmeyer and Josif Grabocka and Lars Schmidt-Thieme},
-    year={2019},
-    eprint={1910.12749},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+@inproceedings{drumond2020hidra,
+  title={HIDRA: Head Initialization across Dynamic targets for Robust Architectures},
+  author={Drumond, Rafael Rego and Brinkmeyer, Lukas and Grabocka, Josif and Schmidt-Thieme, Lars},
+  booktitle={Proceedings of the 2020 SIAM International Conference on Data Mining},
+  pages={397--405},
+  year={2020},
+  organization={SIAM}
 }
 ```
 
