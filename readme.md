@@ -5,9 +5,10 @@
 - Built on top of https://github.com/dragen1860/MAML-TensorFlow
 
 ## Credits and Details
-
+Published in SIAM's SDM2020
 - If you use this code, please cite the paper from MAML and our paper. Bibtex'es below. For more details, look at our paper.
 
+Maml paper:
 ```
 	@inproceedings{finn2017model,
 	  title={Model-agnostic meta-learning for fast adaptation of deep networks},
