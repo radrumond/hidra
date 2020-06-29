@@ -100,7 +100,7 @@ class MAML:
             dSums = tf.reduce_sum([self.weights["d_1w"+str(i)] - self.cells["d_1"] for i in range(self.max_labels)],0)/tf.cast(self.label_n[0], dtype=tf.float32)
             bSums = tf.reduce_sum([self.weights["b_1w"+str(i)] - self.cells["b_1"] for i in range(self.max_labels)],0)/tf.cast(self.label_n[0], dtype=tf.float32)
             self.thishere = dSums
-            self.final_assign = [tf.assign(self.cells["d_1"], dSums), tf.assign(self.cells["b_1"], bSums)]
+            self.final_assign = [tf.assign_add(self.cells["d_1"], dSums), tf.assign_add(self.cells["b_1"], bSums)]
 
         else: 
             self.test_train_loss = train_loss = tf.reduce_sum(train_loss_tasks) / meta_batchsz
